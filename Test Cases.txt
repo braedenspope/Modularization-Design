@@ -1,0 +1,49 @@
+Test Cases:
+
+Invalid Input: Error
+-Input: "wow"
+-Output: "Invalid Input, Try Again."
+
+Reversed Coordinates: Requirement
+-Input: 2B then B3
+-Output: Works as intended
+
+Lowercase Coordinates: Requirement
+-Input: e1
+-Output: Works as intended
+
+Invalid Number: Error
+-Input: D1, value 0, then 11
+-Output:"The number must be between 1 and 9. Try again."
+
+Square already filled: Requirement
+-Input: A1
+-Output: "That space is already filled."
+
+Unique Row: Requirement
+-Input: D3, value 1
+-Output: "1 is already in this row."
+
+Unique Column: Requirement
+-Input: A4, value 9
+-Output: "9 is already in this column"
+
+Unique Inside Square: Requirement
+-Input: E5, value 6
+-Output: "6 is already in this section"
+
+Show possible values: Requirement
+-Input: E5, value S
+-Output: "The possible answers for E5 are: [8]"
+
+Outside of the board: Error
+-Input: A10, J10, J9,
+-Output: "That space is not on the board. Try Again."
+
+Negative value: Error
+-Input: C4, value -1
+-Output: "The number must be between 1 and 9. Try again."
+
+0 Input: Error
+-Input: C4, value 0
+-Output: "The number must be between 1 and 9. Try again."
